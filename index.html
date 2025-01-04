@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess Game</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="wrapper">
+
+
+    
+
+    <div id="chessboard-container">
+      <!-- Đánh dấu cột (A-H) trên đầu bàn cờ -->
+      <div class="column-labels">
+        <span>A</span><span>B</span><span>C</span><span>D</span>
+        <span>E</span><span>F</span><span>G</span><span>H</span>
+      </div>
+      
+      <!-- Bàn cờ -->
+      <div id="chessboard"></div>
+      
+      <!-- Đánh dấu hàng (1-8) bên trái bàn cờ -->
+      <div class="row-labels">
+        <span>8</span><span>7</span><span>6</span><span>5</span>
+        <span>4</span><span>3</span><span>2</span><span>1</span>
+      </div>
+    </div>
+  </main>
+
+  <script src="./functions/render.js"></script>
+
+</body>
+</html>
